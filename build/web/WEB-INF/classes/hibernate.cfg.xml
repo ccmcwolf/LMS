@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/lms?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">mysql</property>
+    <mapping class="com.lms.app.beans.Message"/>
+    <mapping class="com.lms.app.beans.Admin"/>
+    <mapping class="com.lms.app.beans.Assignmentmark"/>
+    <mapping class="com.lms.app.beans.Question"/>
+    <mapping class="com.lms.app.beans.Student"/>
+    <mapping class="com.lms.app.beans.Course"/>
+    <mapping class="com.lms.app.beans.Exam"/>
+    <mapping class="com.lms.app.beans.Payment"/>
+    <mapping class="com.lms.app.beans.Lecturer"/>
+    <mapping class="com.lms.app.beans.Batch"/>
+    <mapping class="com.lms.app.beans.Studentanswer"/>
+    <mapping class="com.lms.app.beans.Coursecontent"/>
+    <mapping class="com.lms.app.beans.Result"/>
+    <mapping class="com.lms.app.beans.Fee"/>
+    <mapping class="com.lms.app.beans.Module"/>
+    <mapping class="com.lms.app.beans.User"/>
+    <mapping class="com.lms.app.beans.Coursemodule"/>
+    <mapping class="com.lms.app.beans.Registration"/>
+    <mapping class="com.lms.app.beans.Assignment"/>
+    <mapping class="com.lms.app.beans.tbeans.Lecturer"/>
+    <mapping class="com.lms.app.beans.tbeans.ContentUpload"/>
+    <mapping class="com.lms.app.beans.tbeans.Student"/>
+  </session-factory>
+</hibernate-configuration>

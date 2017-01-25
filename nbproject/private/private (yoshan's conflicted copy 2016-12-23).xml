@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/yosha/Dropbox/_lms_/web/WEB-INF/jsp/jspx/header.jsp</file>
+            <file>file:/C:/Users/yosha/Dropbox/_lms_/web/WEB-INF/jsp/addCourseContent.jsp</file>
+            <file>file:/C:/Users/yosha/Dropbox/_lms_/src/java/com/lms/app/service/CourseService.java</file>
+            <file>file:/C:/Users/yosha/Dropbox/_lms_/web/WEB-INF/jsp/searchStudent.jsp</file>
+            <file>file:/C:/Users/yosha/Dropbox/_lms_/src/java/com/lms/app/service/impl/CourseServiceImpl.java</file>
+            <file>file:/C:/Users/yosha/Dropbox/_lms_/web/WEB-INF/jsp/viewStudents.jsp</file>
+            <file>file:/C:/Users/yosha/Dropbox/_lms_/src/java/com/lms/app/beans/User.java</file>
+            <file>file:/C:/Users/yosha/Dropbox/_lms_/src/java/com/lms/app/repository/impl/StudentRepositoryImpl.java</file>
+            <file>file:/C:/Users/yosha/Dropbox/_lms_/src/java/com/lms/app/beans/Student.java</file>
+            <file>file:/C:/Users/yosha/Dropbox/_lms_/src/java/com/lms/app/controller/PageRouterController.java</file>
+            <file>file:/C:/Users/yosha/Dropbox/_lms_/src/java/com/lms/app/controller/StudentController.java</file>
+            <file>file:/C:/Users/yosha/Dropbox/_lms_/src/java/com/lms/app/service/impl/StudentServiceImpl.java</file>
+        </group>
+    </open-files>
+</project-private>

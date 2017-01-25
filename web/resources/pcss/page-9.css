@@ -1,0 +1,30 @@
+h2#imPgTitle {float: left; }
+#imBreadcrumb { float: left; }
+@media (min-width: 960px) {
+	.imContentDataContainer { width: 810px; margin-left: auto; margin-right: auto; padding: 0 0px 0 150px; }
+	#imPgTitle { width: 796px; margin-left: 6px; margin-right: 6px; }
+	#imBreadcrumb { width: 796px; margin-left: 6px; margin-right: 6px; }
+	
+}
+
+@media  (max-width: 959px) and (min-width: 720px) {
+	.imContentDataContainer { width: 710px; margin-left: auto; margin-right: auto; padding: 0 5px 0 5px; }
+	#imPgTitle { width: 696px; margin-left: 6px; margin-right: 6px; }
+	#imBreadcrumb { width: 696px; margin-left: 6px; margin-right: 6px; }
+	
+}
+
+@media  (max-width: 719px) and (min-width: 480px) {
+	.imContentDataContainer { width: 470px; margin-left: auto; margin-right: auto; padding: 0 5px 0 5px; }
+	#imPgTitle { width: 456px; margin-left: 6px; margin-right: 6px; }
+	#imBreadcrumb { width: 456px; margin-left: 6px; margin-right: 6px; }
+	
+}
+
+@media  (max-width: 479px) {
+	.imContentDataContainer { width: 100%; }
+	#imPgTitle { width: 100%; margin-left: 0px; margin-right: 0px; }
+	#imBreadcrumb { width: 100%; margin-left: 0px; margin-right: 0px; }
+	
+}
+

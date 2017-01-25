@@ -1,0 +1,75 @@
+h2#imPgTitle {float: left; }
+#imGroup_1 { float: left; }
+#imGroup_3 > div { float: left; }
+#imGroup_4 > div { float: left; }
+#imCell_1 { display: block; position: relative; overflow: hidden; }
+#imGroup_7 > div { float: left; }
+@media (min-width: 960px) {
+	.imContentDataContainer { width: 808px; margin-left: auto; margin-right: auto; padding: 0 0px 0 150px; }
+	#imPgTitle { width: 794px; margin-left: 6px; margin-right: 6px; }
+	#imGroup_1 { width: 100%; }
+	#imGroup_2 { width: 808px; height: 0px; }
+	#imGroup_3 { width: 808px; }
+	#imGroup_4 { width: 202px; }
+	#imGroup_5 { width: 202px; height: 0px; }
+	#imGroup_6 { width: 202px; height: 12px; }
+	#imCell_1 { width: 398px; min-height: 6px; }
+	#imGroup_7 { width: 202px; }
+	#imGroup_8 { width: 202px; height: 0px; }
+	#imGroup_9 { width: 202px; height: 12px; }
+	#imGroup_10 { width: 808px; height: 0px; }
+	
+}
+
+@media  (max-width: 959px) and (min-width: 720px) {
+	.imContentDataContainer { width: 708px; margin-left: auto; margin-right: auto; padding: 0 5px 0 5px; }
+	#imPgTitle { width: 694px; margin-left: 6px; margin-right: 6px; }
+	#imGroup_1 { width: 100%; }
+	#imGroup_2 { width: 708px; height: 0px; }
+	#imGroup_3 { width: 708px; }
+	#imGroup_4 { width: 177px; }
+	#imGroup_5 { width: 177px; height: 0px; }
+	#imGroup_6 { width: 177px; height: 12px; }
+	#imCell_1 { width: 348px; min-height: 6px; }
+	#imGroup_7 { width: 177px; }
+	#imGroup_8 { width: 177px; height: 0px; }
+	#imGroup_9 { width: 177px; height: 12px; }
+	#imGroup_10 { width: 708px; height: 0px; }
+	
+}
+
+@media  (max-width: 719px) and (min-width: 480px) {
+	.imContentDataContainer { width: 468px; margin-left: auto; margin-right: auto; padding: 0 5px 0 5px; }
+	#imPgTitle { width: 454px; margin-left: 6px; margin-right: 6px; }
+	#imGroup_1 { width: 100%; }
+	#imGroup_2 { width: 468px; height: 0px; }
+	#imGroup_3 { width: 468px; }
+	#imGroup_4 { width: 117px; }
+	#imGroup_5 { width: 117px; height: 0px; }
+	#imGroup_6 { width: 117px; height: 12px; }
+	#imCell_1 { width: 230px; min-height: 6px; }
+	#imGroup_7 { width: 117px; }
+	#imGroup_8 { width: 117px; height: 0px; }
+	#imGroup_9 { width: 117px; height: 12px; }
+	#imGroup_10 { width: 468px; height: 0px; }
+	
+}
+
+@media  (max-width: 479px) {
+	.imContentDataContainer { width: 100%; }
+	#imPgTitle { width: 100%; margin-left: 0px; margin-right: 0px; }
+	#imGroup_1 { width: 100%; }
+	#imGroup_2 { display: none; clear: left; }
+	#imGroup_3 { width: 100%; clear: left; }
+	#imGroup_4 { display: none; clear: left; }
+	#imGroup_5 { display: none; clear: left; }
+	#imGroup_6 { display: none; clear: left; }
+	#imCell_1 { clear: left; }
+	#imCell_1 { width: 100%; min-height: 6px; }
+	#imGroup_7 { display: none; clear: left; }
+	#imGroup_8 { display: none; clear: left; }
+	#imGroup_9 { display: none; clear: left; }
+	#imGroup_10 { display: none; clear: left; }
+	
+}
+

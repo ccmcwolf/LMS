@@ -1,0 +1,33 @@
+h2#imPgTitle {float: left; }
+#imBreadcrumb { float: left; }
+@media (min-width: 960px) {
+	#imPgMnContainer { position: absolute; top: 0px; bottom: 0px; left: 150px; right: 0px; margin: 0 auto; width: 810px; }
+	.imContentDataContainer { width: 640px; margin-left: auto; margin-right: auto; padding: 0 0px 0 320px; }
+	#imPgTitle { width: 626px; margin-left: 6px; margin-right: 6px; }
+	#imBreadcrumb { width: 626px; margin-left: 6px; margin-right: 6px; }
+	
+}
+
+@media  (max-width: 959px) and (min-width: 720px) {
+	#imPgMnContainer { position: absolute; top: 5px; bottom: 5px; left: 5px; right: 5px; margin: 0 auto; width: 710px; }
+	.imContentDataContainer { width: 540px; margin-left: auto; margin-right: auto; padding: 0 5px 0 175px; }
+	#imPgTitle { width: 526px; margin-left: 6px; margin-right: 6px; }
+	#imBreadcrumb { width: 526px; margin-left: 6px; margin-right: 6px; }
+	
+}
+
+@media  (max-width: 719px) and (min-width: 480px) {
+	#imPgMnContainer { position: absolute; top: 5px; bottom: 5px; left: 5px; right: 5px; margin: 0 auto; width: 470px; }
+	.imContentDataContainer { width: 300px; margin-left: auto; margin-right: auto; padding: 0 5px 0 175px; }
+	#imPgTitle { width: 286px; margin-left: 6px; margin-right: 6px; }
+	#imBreadcrumb { width: 286px; margin-left: 6px; margin-right: 6px; }
+	
+}
+
+@media  (max-width: 479px) {
+	#imPgMnContainer { display: none; }.imContentDataContainer { width: 100%; }
+	#imPgTitle { width: 100%; margin-left: 0px; margin-right: 0px; }
+	#imBreadcrumb { width: 100%; margin-left: 0px; margin-right: 0px; }
+	
+}
+

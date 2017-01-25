@@ -1,0 +1,48 @@
+h2#imPgTitle {float: left; }
+#imBreadcrumb { float: left; }
+#imGroup_1 { float: left; }
+#imCell_1 { display: block; position: relative; overflow: hidden; }
+@media (min-width: 960px) {
+	#imPgMnContainer { position: absolute; top: 0px; bottom: 0px; left: 150px; right: 0px; margin: 0 auto; width: 807px; }
+	.imContentDataContainer { width: 637px; margin-left: auto; margin-right: auto; padding: 0 0px 0 320px; }
+	#imPgTitle { width: 623px; margin-left: 6px; margin-right: 6px; }
+	#imBreadcrumb { width: 623px; margin-left: 6px; margin-right: 6px; }
+	#imGroup_1 { width: 100%; }
+	#imGroup_2 { width: 637px; height: 0px; }
+	#imCell_1 { width: 631px; min-height: 6px; }
+	
+}
+
+@media  (max-width: 959px) and (min-width: 720px) {
+	#imPgMnContainer { position: absolute; top: 5px; bottom: 5px; left: 5px; right: 5px; margin: 0 auto; width: 707px; }
+	.imContentDataContainer { width: 537px; margin-left: auto; margin-right: auto; padding: 0 5px 0 175px; }
+	#imPgTitle { width: 523px; margin-left: 6px; margin-right: 6px; }
+	#imBreadcrumb { width: 523px; margin-left: 6px; margin-right: 6px; }
+	#imGroup_1 { width: 100%; }
+	#imGroup_2 { width: 537px; height: 0px; }
+	#imCell_1 { width: 531px; min-height: 6px; }
+	
+}
+
+@media  (max-width: 719px) and (min-width: 480px) {
+	#imPgMnContainer { position: absolute; top: 5px; bottom: 5px; left: 5px; right: 5px; margin: 0 auto; width: 470px; }
+	.imContentDataContainer { width: 300px; margin-left: auto; margin-right: auto; padding: 0 5px 0 175px; }
+	#imPgTitle { width: 286px; margin-left: 6px; margin-right: 6px; }
+	#imBreadcrumb { width: 286px; margin-left: 6px; margin-right: 6px; }
+	#imGroup_1 { width: 100%; }
+	#imGroup_2 { width: 300px; height: 0px; }
+	#imCell_1 { width: 298px; min-height: 6px; }
+	
+}
+
+@media  (max-width: 479px) {
+	#imPgMnContainer { display: none; }.imContentDataContainer { width: 100%; }
+	#imPgTitle { width: 100%; margin-left: 0px; margin-right: 0px; }
+	#imBreadcrumb { width: 100%; margin-left: 0px; margin-right: 0px; }
+	#imGroup_1 { width: 100%; }
+	#imGroup_2 { display: none; clear: left; }
+	#imCell_1 { clear: left; }
+	#imCell_1 { width: 100%; min-height: 6px; }
+	
+}
+

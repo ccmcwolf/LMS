@@ -1,0 +1,68 @@
+h2#imPgTitle {float: left; }
+#imCell_4 { display: block; position: relative; overflow: hidden; }
+#imTableObject_8_04 { font-style: normal; font-weight: normal; line-height: 21px; }
+#imTableObject_8_04_tab0 ul { list-style: disc; margin: 0 8px; padding: 0px; overflow: hidden; }
+#imTableObject_8_04_tab0 ul ul { list-style: square; padding: 0 0 0 20px; }
+#imTableObject_8_04_tab0 ul ul ul { list-style: circle; }
+#imTableObject_8_04_tab0 ul li { margin: 0 0 0 15px; padding: 0px; font-size: 9pt; line-height: 19px;}
+#imTableObject_8_04_tab0 ol { list-style: decimal; margin: 0px 15px; padding: 0px; }
+#imTableObject_8_04_tab0 ol ol { list-style: lower-alpha; padding: 0 0 0 20px; }
+#imTableObject_8_04_tab0 ol li { margin: 0 0 0 15px; padding: 0px; font-size: 9pt; line-height: 19px;}
+#imTableObject_8_04_tab0 blockquote { margin: 0 0 0 15px; padding: 0; border: none; }
+#imTableObject_8_04_tab0 table { border: none; padding: 0; border-collapse: collapse; }
+#imTableObject_8_04_tab0 table td { border: 1px solid black; word-wrap: break-word; padding: 4px 3px 4px 3px; margin: 0; vertical-align: middle; }
+#imTableObject_8_04_tab0 p { margin: 0; padding: 0; }
+#imTableObject_8_04_tab0 .inline-block { display: inline-block; }
+#imTableObject_8_04_tab0 sup { vertical-align: super; font-size: smaller; }
+#imTableObject_8_04_tab0 sub { vertical-align: sub; font-size: smaller; }
+#imTableObject_8_04_tab0 img { border: none; margin: 0; vertical-align: text-bottom;}
+#imTableObject_8_04_tab0 .fleft { float: left; vertical-align: baseline;}
+#imTableObject_8_04_tab0 .fright { float: right; vertical-align: baseline;}
+#imTableObject_8_04_tab0 img.fleft { margin-right: 15px; }
+#imTableObject_8_04_tab0 img.fright { margin-left: 15px; }
+#imTableObject_8_04_tab0 .imUl { text-decoration: underline; }
+#imTableObject_8_04_tab0 .imVt { vertical-align: top; }
+#imTableObject_8_04_tab0 .imVc { vertical-align: middle; }
+#imTableObject_8_04_tab0 .imVb { vertical-align: bottom; }
+#imTableObject_8_04_tab0 table td { border-style: solid; border-width: 1px 1px; border-color: rgb(0, 0, 0) rgb(0, 0, 0); }
+#imTableObject_8_04 .text-container {margin: 0 auto; position: relative; overflow: hidden;  background-color: #FFFFFF;  }
+#imTableObject_8_04 table { margin: 0 auto; }
+@media (min-width: 960px) {
+	.imContentDataContainer { width: 808px; margin-left: auto; margin-right: auto; padding: 0 0px 0 150px; }
+	#imPgTitle { width: 794px; margin-left: 6px; margin-right: 6px; }
+	#imCell_4 { width: 802px; min-height: 346px; }
+	#imTableObject_8_04 .text-container {border-style: solid; border-color: #A9A9A9; border-width: 0 1px 1px 1px;width: 100%; box-sizing: border-box;}
+	#imTableObject_8_04 .text-container { height: 340px;}
+	
+}
+
+@media  (max-width: 959px) and (min-width: 720px) {
+	.imContentDataContainer { width: 708px; margin-left: auto; margin-right: auto; padding: 0 5px 0 5px; }
+	#imPgTitle { width: 694px; margin-left: 6px; margin-right: 6px; }
+	#imCell_4 { width: 702px; min-height: 361px; }
+	#imTableObject_8_04 .text-container {border-style: solid; border-color: #A9A9A9; border-width: 0 1px 1px 1px;width: 100%; box-sizing: border-box;}
+	#imTableObject_8_04 .text-container { height: 355px;}
+	#imTableObject_8_04 { width: 100%; overflow-x: scroll; }
+	
+}
+
+@media  (max-width: 719px) and (min-width: 480px) {
+	.imContentDataContainer { width: 468px; margin-left: auto; margin-right: auto; padding: 0 5px 0 5px; }
+	#imPgTitle { width: 454px; margin-left: 6px; margin-right: 6px; }
+	#imCell_4 { width: 464px; min-height: 361px; }
+	#imTableObject_8_04 .text-container {border-style: solid; border-color: #A9A9A9; border-width: 0 1px 1px 1px;width: 100%; box-sizing: border-box;}
+	#imTableObject_8_04 .text-container { height: 355px;}
+	#imTableObject_8_04 { width: 100%; overflow-x: scroll; }
+	
+}
+
+@media  (max-width: 479px) {
+	.imContentDataContainer { width: 100%; }
+	#imPgTitle { width: 100%; margin-left: 0px; margin-right: 0px; }
+	#imCell_4 { clear: left; }
+	#imCell_4 { width: 100%; min-height: 6px; }
+	#imTableObject_8_04 .text-container {border-style: solid; border-color: #A9A9A9; border-width: 0 1px 1px 1px;width: 100%; box-sizing: border-box;}
+	#imTableObject_8_04 { width: 100%; overflow-x: scroll; }
+	
+}
+
