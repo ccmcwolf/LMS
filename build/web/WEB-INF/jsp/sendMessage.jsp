@@ -114,8 +114,9 @@
                                                                 </c:forEach>
                                                             </select>
                                                                     <div id="imObjectForm_3_3_container" class="imObjectFormFieldContainer"><label id="imObjectForm_3_3_label" for="imObjectForm_3_3">Message</label><br /><div id="imObjectForm_3_3_field">
-                                                            <input type="textArea" placeholder="Message" required="true" name="msgbody" class="mandatory" id="imObjectForm_3_1" /></div>
+                                                            <input type="textArea" placeholder="Message"  name="msgbody" required="true" name="msgbody" class="mandatory" id="imObjectForm_3_1" /></div>
                                                             </div>
+                                                            
                                                             </select>
                                                         </div>
                                                     </div>

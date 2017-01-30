@@ -33,4 +33,9 @@ public class MessageServiceImpl implements MessageService {
     public void sendMessage(Message message) throws DataAccessException {
         messageRepository.sendMessage(message);
     }
+
+    @Override
+    public List<Message> viewMessages(Integer userId) throws DataAccessException {
+      return messageRepository.viewMessages(userId);
+    }
 }

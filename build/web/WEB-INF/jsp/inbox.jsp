@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -101,7 +102,14 @@
                                     <div id="imCellStyleGraphics_1"></div>
                                     <div id="imCellStyle_1"  data-responsive-sequence-number="1">
                                         
-                                        
+                                        <c:forEach items="${requestScope.$messages}" var="message">
+                                                                <tr>
+                                                                    <td style="height: 21px; width: 83px;" colspan="1" class="imVc"><br>${message.messageId}</td>
+                                                                    <td style="height: 21px; width: 212px; margin-top: 0px; margin-left: 0px;" colspan="1" class="imVc"><br></td>
+                                                                    <td colspan="2" style="width: 113px; height: 21px;" class="imVt"><br>${message.body}</td>
+                                                                    <td colspan="2" style="width: 183px; height: 21px;" class="imVt"><br></td>
+                                                                </tr>
+                                                            </c:forEach>                                                        
                                         
                                         
                                         

@@ -426,13 +426,13 @@ public class PageRouterController {
      * @param request
      * @return
      */
-    @RequestMapping(value = {"/view/inbox"}, method = RequestMethod.GET)
-    public ModelAndView viewInbox(HttpServletRequest request) {
-
-        ModelAndView view = new ModelAndView();
-        view.setViewName("inbox");
-        return view;
-    }
+//    @RequestMapping(value = {"/view/inbox"}, method = RequestMethod.GET)
+//    public ModelAndView viewInbox(HttpServletRequest request) {
+//
+//        ModelAndView view = new ModelAndView();
+//        view.setViewName("inbox");
+//        return view;
+//    }
 
     /**
      *

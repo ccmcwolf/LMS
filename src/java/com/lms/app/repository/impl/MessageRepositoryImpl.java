@@ -18,15 +18,14 @@ import org.springframework.stereotype.Repository;
  * @author Chamith
  */
 @Repository
-public class MessageRepositoryImpl implements MessageRepository{
+public class MessageRepositoryImpl implements MessageRepository {
 
-    
     @Autowired
     private SessionFactory sessionFactory;
-    
+
     @Override
     public void sendMessage(Message message) throws DataAccessException {
-          sessionFactory.getCurrentSession().save(message);
+        sessionFactory.getCurrentSession().save(message);
     }
 
 //    @Override
@@ -34,4 +33,17 @@ public class MessageRepositoryImpl implements MessageRepository{
 //           return (List<Message>) sessionFactory.getCurrentSession().createQuery("from Message where ToUserId = '"+userid+"'").list();
 //    }
     
+
+    @Override
+    public List<Message> viewMessages(Integer userId) throws DataAccessException {
+        return (List<Message>) sessionFactory
+                .openSession()
+                .createSQLQuery("select * from Message where ToUserID=:uid")
+                .addEntity(Message.class)
+                .setParameter("uid", userId)
+                 
+                .setMaxResults(100)
+                .list();
+    }
+
 }

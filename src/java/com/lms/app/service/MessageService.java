@@ -18,4 +18,6 @@ import org.springframework.dao.DataAccessException;
 public interface MessageService {
     public void sendMessage(Message message) throws DataAccessException;
  //   public List<Message> getAllMessages(String userid) throws DataAccessException;
+    
+    public List<Message> viewMessages(Integer userId) throws DataAccessException;
 }
