@@ -164,7 +164,7 @@ public class LecturerController {
             String dob = request.getParameter("dob");
             String address = request.getParameter("address");
 
-            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+                       SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
             Date parseDOB = dateFormat.parse(dob);
             dateFormat.format(parseDOB);
 

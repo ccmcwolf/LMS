@@ -56,7 +56,7 @@ public class AdminController {
             String position = request.getParameter("position");
             String nic = request.getParameter("nic");
 
-            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+                       SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
             Date parseDOB = dateFormat.parse(dob);
             dateFormat.format(parseDOB);
 

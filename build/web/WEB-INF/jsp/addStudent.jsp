@@ -4,12 +4,13 @@
     Author     : Chathura madushan
 --%>
 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">        
-        <title>Add Student | LMS</title>
+        <title>Add Student | LMS <c:out value="result"></c:out></title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" type="text/css" href="${pageContext.servletContext.contextPath}/resources/style/reset.css?13-0-1-16" media="screen,print" />
         <link rel="stylesheet" type="text/css" href="${pageContext.servletContext.contextPath}/resources/style/print.css?13-0-1-16" media="print" />
@@ -23,7 +24,8 @@
         <script type="text/javascript">
             window.onload = function () {
                 checkBrowserCompatibility('Your browser does not support the features necessary to display this website.', 'Your browser may not support the features necessary to display this website.', '[1]Update your browser[/1] or [2]continue without updating[/2].', 'http://outdatedbrowser.com/');
-            };
+                 
+    };
         </script>
 
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -36,6 +38,8 @@
             });
         </script>
 
+        
+        
         <link rel="icon" href="favicon.png?13-0-1-16-636177445425370903" type="image/png" />
 
     </head>
@@ -58,7 +62,7 @@
         <div id="imHeaderBg"></div>
 
         <div id="imFooterBg"></div>
-
+         
         <div id="imPage">
 
             <div id="imHeader">

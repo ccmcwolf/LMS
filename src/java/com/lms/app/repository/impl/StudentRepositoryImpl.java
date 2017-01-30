@@ -33,6 +33,7 @@ public class StudentRepositoryImpl implements StudentRepository {
     @Override
     public void addStudentData(Student student) throws DataAccessException {
         sessionFactory.getCurrentSession().save(student);
+        
     }
 
     @Override

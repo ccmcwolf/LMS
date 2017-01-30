@@ -48,6 +48,7 @@ public class BatchController {
 
         try {
             SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+                        
 
             Date parse = dateFormat.parse(startDate);
 

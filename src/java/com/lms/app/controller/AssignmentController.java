@@ -53,7 +53,7 @@ public class AssignmentController {
             int batchId = Integer.valueOf(request.getParameter("batch"));
             int lectureId = Integer.valueOf(request.getParameter("lecture"));
 
-            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+                        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
             Date parseDOB = dateFormat.parse(closingDate);
             dateFormat.format(parseDOB);
 

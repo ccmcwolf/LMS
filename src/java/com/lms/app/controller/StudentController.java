@@ -44,8 +44,6 @@ public class StudentController {
      */
     @RequestMapping(value = {"/student/add"}, method = RequestMethod.POST)
     public ModelAndView addStudent(HttpServletRequest request, HttpSession userSession) {
-        ModelAndView view = new ModelAndView();
-        
         try {
             
             String userName = request.getParameter("username");
@@ -54,8 +52,7 @@ public class StudentController {
             String address = request.getParameter("address");
             String dob = request.getParameter("dob");
             
-
-            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+                               SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
             Date parseDOB = dateFormat.parse(dob);
             dateFormat.format(parseDOB);
 
@@ -73,24 +70,24 @@ public class StudentController {
 
             Set<Student> students = new HashSet<>();
             user.setStudents(students);
-
+            
             studentService.addStudentData(student);
-            view.addObject("Added Successfully");
-      
+        request.setAttribute("result", "Added Successfully");
         } catch (ParseException ex) {
-        
             Logger.getLogger(CourseController.class.getName()).log(Level.SEVERE, null, ex);
         } catch (NoSuchAlgorithmException ex) {
             Logger.getLogger(StudentController.class.getName()).log(Level.SEVERE, null, ex);
         }
+        ModelAndView view = new ModelAndView();
         view.setViewName("addStudent");
+        
         return view;
     }
 
     @RequestMapping(value = {"/student/search"}, method = RequestMethod.POST)
     public ModelAndView searchStudent(HttpServletRequest request, HttpSession userSession) {
         String uid = request.getParameter("uid");
-        System.out.println("Hello : " + uid);
+        
         User user = new User();
         user.setUserId(new Integer(uid));
         ModelAndView view = new ModelAndView();
@@ -130,11 +127,9 @@ public class StudentController {
             String password = request.getParameter("pswrd");
             
             SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
-            //SimpleDateFormat dateFormat1 = new SimpleDateFormat("dd/MM/yyyy");
-            dateFormat.format(bdate);
+            Date parseDOB = dateFormat.parse(bdate);
+            dateFormat.format(parseDOB);
 
-             Date parseDOB = dateFormat.parse(bdate);
-           
             studentService.editStudentData(new Student(null, name, parseDOB, adderess, null, null, null, null, null),sid);
 
         } catch (ParseException ex) {
